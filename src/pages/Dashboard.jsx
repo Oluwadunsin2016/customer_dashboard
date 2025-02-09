@@ -3,11 +3,10 @@ import BalanceCards from '../components/BalanceCards'
 import BalanceChart from '../components/BalanceChart'
 // import AllSpendings from '../components/AllSpendings'
 import TransactionHistory from '../components/TransactionHistory'
-import Header from '../Components/Header'
-// import Drawer from '../components/Drawer'
 import TransferForm from '../components/TransferForm'
 import { useState } from 'react'
 import Drawer from '../components/Drawer'
+import Header from '../components/Header';
 
 const Dashboard = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
